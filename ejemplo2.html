@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Opacidad CSS - Ejemplo 2</title>
+<style>
+.box {
+width: 200px;
+height: 200px;
+background-color: lightblue;
+opacity: 1; /* Opacidad inicial al 100% */
+transition: opacity 0.3s ease; /* Transición suave */
+}
+.box:hover {
+opacity: 0.5; /* Opacidad al 50% al hacer hover */
+}
+button{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: green;
+    width: 100px;
+margin-top: 10px;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+</style>
+</head>
+<body>
+<div class="box"></div>
+<button><a href="index.html">volver</a></button>
+</body>
+</html>
